@@ -19,3 +19,39 @@ body{
     margin-bottom: 10px;
     background-color: rgb(172, 171, 171);
 }
+.buttons button:hover{
+    background-color: #ccc;
+}
+
+
+.buttons button{
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #121212;
+    cursor: pointer;
+    display: inline-flex;
+    flex: 1 1 auto;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    outline: none;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    text-decoration: box-shadow .2s,-webkit-box-shadow .2s;
+    white-space: nowrap;
+    border: 0;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.buttons button:hover{
+    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
